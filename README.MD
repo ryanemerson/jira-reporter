@@ -4,7 +4,7 @@ A simple script to retrieve a summary of JIRA issues associated with a specified
 
 ## Installation
 
-Works with Python 2.7 and 3.4.  Requires pip to be installed.
+Requires Java 8 and maven.
 
 ```bash
 > git clone git@github.com:ryanemerson/jira-reporter.git
