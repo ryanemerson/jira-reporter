@@ -9,7 +9,7 @@ Requires Java 8 and maven.
 ```bash
 > git clone git@github.com:ryanemerson/jira-reporter.git
 > cd jira-reporter
-> mvn clean install
+> mvn clean package
 ```
 
 ## Running
