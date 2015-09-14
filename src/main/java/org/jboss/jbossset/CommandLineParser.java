@@ -38,16 +38,15 @@ public class CommandLineParser {
     private int issueLimit = 50;
     private Map<String, String> domains = new HashMap<>();
 
-    {
+    public CommandLineParser(String[] args) {
+        this.args = args;
+
         validCSVFormats = new HashMap<>();
         validCSVFormats.put("excel", CSVFormat.EXCEL);
         validCSVFormats.put("mysql", CSVFormat.MYSQL);
         validCSVFormats.put("rfc4180", CSVFormat.RFC4180);
         validCSVFormats.put("tdf", CSVFormat.TDF);
-    }
 
-    public CommandLineParser(String[] args) {
-        this.args = args;
         addOptions();
     }
 
